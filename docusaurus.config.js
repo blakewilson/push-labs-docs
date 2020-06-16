@@ -5,7 +5,11 @@ module.exports = {
   favicon: 'img/pushlabs_favicon.png',
   organizationName: 'pushlabsco', // Usually your GitHub org/user name.
   projectName: 'push-labs-docs', // Usually your repo name.
+  plugins: [require.resolve('@docusaurus/plugin-google-analytics')],
   themeConfig: {
+    googleAnalytics: {
+      trackingID: 'UA-81413905-2'
+    },
     navbar: {
       title: 'Push Labs Docs',
       logo: {
