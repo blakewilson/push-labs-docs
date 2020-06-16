@@ -1,18 +1,17 @@
 module.exports = {
   title: 'Push Labs Docs',
-  tagline: 'The tagline of my site',
-  url: 'https://your-docusaurus-test-site.com',
+  url: 'https://docs.pushlabs.co',
   baseUrl: '/',
-  favicon: 'img/favicon.ico',
+  favicon: 'img/pushlabs_favicon.png',
   organizationName: 'pushlabsco', // Usually your GitHub org/user name.
   projectName: 'push-labs-docs', // Usually your repo name.
   themeConfig: {
     navbar: {
       title: 'Push Labs Docs',
-      // logo: {
-      //   alt: 'Push Labs Logo',
-      //   src: 'img/logo.svg',
-      // },
+      logo: {
+        alt: 'Push Labs Logo',
+        src: 'img/pushlabs_favicon.png',
+      },
       links: [
         {
           to: 'video-background/',
@@ -24,43 +23,47 @@ module.exports = {
           label: 'Video Background Pro',
           position: 'left',
         },
-        {
-          href: 'https://github.com/facebook/docusaurus',
-          label: 'GitHub',
-          position: 'right',
-        },
+        {search: true}
       ],
     },
     footer: {
-      style: 'dark',
+      style: 'light',
       links: [
         {
-          title: 'Docs',
+          title: 'Push Labs',
           items: [
             {
-              label: 'Style Guide',
-              to: 'docs/',
+              label: 'My Account',
+              href: 'https://pushlabs.co/my-account',
             },
             {
-              label: 'Second Doc',
-              to: 'docs/doc2/',
+              label: 'My License Keys',
+              href: 'https://pushlabs.co/my-account/my-api-keys/',
             },
+            {
+              label: 'My Orders',
+              href: 'https://pushlabs.co/my-account/orders/'
+            },
+            {
+              label: 'My Downloads',
+              href: 'https://pushlabs.co/my-account/my-api-downloads/'
+            }
           ],
         },
         {
-          title: 'Community',
+          title: 'Video Background Pro',
           items: [
             {
-              label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+              label: 'License',
+              href: 'https://pushlabs.co/license/',
             },
             {
-              label: 'Discord',
-              href: 'https://discordapp.com/invite/docusaurus',
+              label: 'Recover License Key',
+              href: 'https://pushlabs.co/lost-license/',
             },
             {
-              label: 'Twitter',
-              href: 'https://twitter.com/docusaurus',
+              label: 'Support',
+              href: 'mailto:blake@pushlabs.co?subject=Support for Video Background Pro&amp;body=Please describe the issue you are encountering with Video Background Pro. Please describe the issue you are encountering with Video Background Pro. Please include any images or screen casts if necessary.',
             },
           ],
         },
@@ -68,12 +71,12 @@ module.exports = {
           title: 'More',
           items: [
             {
-              label: 'Blog',
-              to: 'blog',
+              label: 'Contribute to these docs',
+              href: 'https://github.com/pushlabsco/push-labs-docs',
             },
             {
               label: 'GitHub',
-              href: 'https://github.com/facebook/docusaurus',
+              href: 'https://github.com/pushlabsco',
             },
           ],
         },
@@ -86,14 +89,11 @@ module.exports = {
       '@docusaurus/preset-classic',
       {
         docs: {
-          // It is recommended to set document id as docs home page (`docs/` path).
-          homePageId: 'doc1',
           sidebarPath: require.resolve('./sidebars.js'),
           routeBasePath: '/',
           showLastUpdateTime: true,
-          // Please change this to your repo.
           editUrl:
-            'https://github.com/facebook/docusaurus/edit/master/website/',
+            'https://github.com/pushlabsco/push-labs-docs/edit/master/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),

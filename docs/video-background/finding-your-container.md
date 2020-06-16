@@ -9,7 +9,9 @@ description: testing
     <iframe src="https://www.youtube.com/embed/oTHcCfta1Q0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
-<p class="notice">**This video tutorial was made for Video Background Pro, but will also work for Video Background.**</p>
+:::note
+This video tutorial was made for Video Background Pro, but will also work for Video Background.
+:::
 
 ## Overview
 

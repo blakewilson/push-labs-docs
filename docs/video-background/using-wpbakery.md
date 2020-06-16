@@ -8,7 +8,9 @@ sidebar_label: Using WPBakery
     <iframe src="https://www.youtube.com/embed/LIMgVpmLc_I" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
-<p class="notice">**This video tutorial was made for Video Background Pro, but will also work for Video Background.**</p>
+:::note
+This video tutorial was made for Video Background Pro, but will also work for Video Background.
+:::
 
 WPBakery is a great tool to create website elements without much coding experience. Thankfully, Video Background has a great WPBakery integration that lets you add video backgrounds through WPBakery `Row` elements.
 

@@ -8,7 +8,9 @@ sidebar_label: Using the Shortcode
     <iframe src="https://www.youtube.com/embed/Ax-MSgWP5ww" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
-<p class="notice">**This video tutorial was made for Video Background Pro, but will also work for Video Background.**</p>
+:::note
+This video tutorial was made for Video Background Pro, but will also work for Video Background.
+:::
 
 The shortcode is the backbone of the entire Video Background plugin. Whether or not you realize it, every other way to create a video background (metabox, WPBakery, SiteOrigin) all end up using the shortcode to initialize the plugin and add it to your website.
 
