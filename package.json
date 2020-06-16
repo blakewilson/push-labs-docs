@@ -1,7 +1,6 @@
 {
-  "name": "push-labs-docs-v-2",
-  "version": "0.0.0",
-  "private": true,
+  "name": "push-labs-docs",
+  "version": "1.0.0",
   "scripts": {
     "start": "docusaurus start",
     "build": "docusaurus build",
