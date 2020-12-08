@@ -15,3 +15,7 @@ The YouTube video that you want as a video background must be publicly accessibl
 ## YouTube Plugin Conflict
 
 If you have checked the previous recommendations and they were not the cause of the issue, you may be experiencing an YouTube plugin conflict. This means that you have another plugin installed that is using the YouTube API that is conflicting with Video Background Pro. It is best to deactivate any YouTube plugins one by one on your WordPress site to rule out which plugin is causing the conflict.
+
+## YouTube Logo Is Visible
+
+Unfortunately, the YouTube API requires the YouTube logo to be visible for the first few seconds of playback. There is no way to avoid this at this time.
