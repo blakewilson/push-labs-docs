@@ -12,5 +12,3 @@ If this happens, there are a few steps you can take to revert the activation, an
 2. Go to [your API Keys](https://pushlabs.co/my-account/my-api-keys/) and remove any keys for the domain you are trying to activate
 3. Reactivate Video Background Pro under `WordPress Admin > Plugins`
 4. Enter your license key and email found on the [API Keys page](https://pushlabs.co/my-account/my-api-keys/)
-
-This should allow you to activate the plugin successfully. Otherwise, please reach out and we can assist with activation.
