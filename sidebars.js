@@ -23,6 +23,7 @@ module.exports = {
       "video-background-pro/troubleshooting/mobile-playback-issues",
       "video-background-pro/troubleshooting/videobackgroundpro-is-not-defined",
       "video-background-pro/troubleshooting/youtube-playback-issues",
+      "video-background-pro/troubleshooting/multiple-video-backgrounds",
     ],
     Examples: [
       "video-background-pro/examples/add-video-background-to-every-page",
