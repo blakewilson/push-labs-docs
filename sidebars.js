@@ -46,6 +46,7 @@ module.exports = {
     ],
     FAQs: ["video-background-pro/faq"],
     Extra: ["video-background-pro/changelog"],
+    Invoices: ["video-background-pro/invoices"],
     Refunds: ["video-background-pro/refunds"],
   },
   "video-background-docs": {
