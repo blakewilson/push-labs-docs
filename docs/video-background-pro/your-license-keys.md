@@ -9,7 +9,7 @@ When purchasing Video Background Pro, a license key is generated for you. Additi
 
 Each license key has an amount of activations associated with it. Currently, Video Background Pro sells 1 site, 5 site, and 25 site licenses. This amount of activations reflects how many WordPress sites you can have the plugin activated.
 
-You can view all of your licenses at the [License Keys page of your account.](https://pushlabs.co/my-account/my-api-keys/)
+You can view all of your licenses at the [License Keys page of your account.](https://pushlabs.co/my-account/api-keys/)
 
 ## Lost License
 

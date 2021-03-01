@@ -11,6 +11,6 @@ Since version 2.1.0, Video Background Pro has a built in update tool that will l
 
 ## Updating the Plugin Manually
 
-It is also possible to update the plugin manually by downloading the Video Background Pro update from the [downloads section of your Push Labs account](https://pushlabs.co/my-account/my-api-downloads/), and uploading the files through FTP to `/wp-content/plugins/video-background-pro`.
+It is also possible to update the plugin manually by downloading the Video Background Pro update from the [downloads section of your Push Labs account](https://pushlabs.co/my-account/api-downloads/), and uploading the files through FTP to `/wp-content/plugins/video-background-pro`.
 
 For more information regarding manually updating a plugin, [please take a look at WPBeginner’s Article](http://www.wpbeginner.com/beginners-guide/how-to-manually-update-wordpress-plugins-via-ftp/).

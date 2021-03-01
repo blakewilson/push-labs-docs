@@ -1,106 +1,110 @@
 module.exports = {
-  title: 'Push Labs Docs',
-  url: 'https://docs.pushlabs.co',
-  baseUrl: '/',
-  favicon: 'img/pushlabs_favicon.png',
-  organizationName: 'pushlabsco', // Usually your GitHub org/user name.
-  projectName: 'push-labs-docs', // Usually your repo name.
-  plugins: [require.resolve('@docusaurus/plugin-google-analytics')],
+  title: "Push Labs Docs",
+  url: "https://docs.pushlabs.co",
+  baseUrl: "/",
+  favicon: "img/pushlabs_favicon.png",
+  organizationName: "pushlabsco", // Usually your GitHub org/user name.
+  projectName: "push-labs-docs", // Usually your repo name.
+  plugins: [require.resolve("@docusaurus/plugin-google-analytics")],
   themeConfig: {
     googleAnalytics: {
-      trackingID: 'UA-81413905-2'
+      trackingID: "UA-81413905-2",
     },
     navbar: {
-      title: 'Push Labs Docs',
+      title: "Push Labs Docs",
       logo: {
-        alt: 'Push Labs Logo',
-        src: 'img/pushlabs_favicon.png',
+        alt: "Push Labs Logo",
+        src: "img/pushlabs_favicon.png",
       },
       links: [
         {
-          to: 'video-background/',
-          label: 'Video Background',
-          position: 'left',
+          to: "video-background/",
+          label: "Video Background",
+          position: "left",
         },
         {
-          to: 'video-background-pro/',
-          label: 'Video Background Pro',
-          position: 'left',
+          to: "video-background-pro/",
+          label: "Video Background Pro",
+          position: "left",
         },
-        {search: true}
+        { search: true },
       ],
     },
     footer: {
-      style: 'light',
+      style: "light",
       links: [
         {
-          title: 'Push Labs',
+          title: "Push Labs",
           items: [
             {
-              label: 'My Account',
-              href: 'https://pushlabs.co/my-account',
+              label: "My Account",
+              href: "https://pushlabs.co/my-account",
             },
             {
-              label: 'My License Keys',
-              href: 'https://pushlabs.co/my-account/my-api-keys/',
+              label: "My License Keys",
+              href: "https://pushlabs.co/my-account/api-keys/",
             },
             {
-              label: 'My Orders',
-              href: 'https://pushlabs.co/my-account/orders/'
+              label: "My Orders",
+              href: "https://pushlabs.co/my-account/orders/",
             },
             {
-              label: 'My Downloads',
-              href: 'https://pushlabs.co/my-account/my-api-downloads/'
-            }
-          ],
-        },
-        {
-          title: 'Video Background Pro',
-          items: [
-            {
-              label: 'License',
-              href: 'https://pushlabs.co/license/',
-            },
-            {
-              label: 'Recover License Key',
-              href: 'https://pushlabs.co/lost-license/',
-            },
-            {
-              label: 'Support',
-              href: 'mailto:blake@pushlabs.co?subject=Support for Video Background Pro&amp;body=Please describe the issue you are encountering with Video Background Pro. Please describe the issue you are encountering with Video Background Pro. Please include any images or screen casts if necessary.',
+              label: "My Downloads",
+              href: "https://pushlabs.co/my-account/api-downloads/",
             },
           ],
         },
         {
-          title: 'More',
+          title: "Video Background Pro",
           items: [
             {
-              label: 'Contribute to these docs',
-              href: 'https://github.com/pushlabsco/push-labs-docs',
+              label: "License",
+              href: "https://pushlabs.co/license/",
             },
             {
-              label: 'GitHub',
-              href: 'https://github.com/pushlabsco',
+              label: "Recover License Key",
+              href: "https://pushlabs.co/lost-license/",
+            },
+            {
+              label: "Support",
+              href:
+                "mailto:blake@pushlabs.co?subject=Support for Video Background Pro&amp;body=Please describe the issue you are encountering with Video Background Pro. Please describe the issue you are encountering with Video Background Pro. Please include any images or screen casts if necessary.",
+            },
+          ],
+        },
+        {
+          title: "More",
+          items: [
+            {
+              label: "Contribute to these docs",
+              href: "https://github.com/pushlabsco/push-labs-docs",
+            },
+            {
+              label: "GitHub",
+              href: "https://github.com/pushlabsco",
             },
           ],
         },
       ],
       copyright: `© ${new Date().getFullYear()} Push Labs`,
     },
+    algolia: {
+      apiKey: "ea144ae42604b7a648f0badda18f5aa3",
+      indexName: "pushlabs",
+    },
   },
   presets: [
     [
-      '@docusaurus/preset-classic',
+      "@docusaurus/preset-classic",
       {
         docs: {
-          sidebarPath: require.resolve('./sidebars.js'),
-          routeBasePath: '/',
+          sidebarPath: require.resolve("./sidebars.js"),
+          routeBasePath: "/",
           showLastUpdateTime: true,
-          editUrl:
-            'https://github.com/pushlabsco/push-labs-docs/edit/master/',
+          editUrl: "https://github.com/pushlabsco/push-labs-docs/edit/master/",
         },
         theme: {
-          customCss: require.resolve('./src/css/custom.css'),
+          customCss: require.resolve("./src/css/custom.css"),
         },
       },
     ],

@@ -11,7 +11,7 @@ All modern browsers and Internet Explorer 11 are compatible with Video Backgroun
 
 ## The plugin says I am out of activations
 
-If the plugin says you are at the maximum activations, and you are expecting to have more, you can [visit your activations dashboard](https://pushlabs.co/my-account/my-api-keys/) here to remove old/stale activations. [Read more on this here.](/video-background-pro/troubleshooting/activation-issues)
+If the plugin says you are at the maximum activations, and you are expecting to have more, you can [visit your activations dashboard](https://pushlabs.co/my-account/api-keys/) here to remove old/stale activations. [Read more on this here.](/video-background-pro/troubleshooting/activation-issues)
 
 ## The YouTube Logo is showing for the first few seconds on my YouTube video background
 
@@ -23,7 +23,7 @@ This is usually caused by the device being in low power mode. Low power mode wil
 
 ## I am currently building a website, how do I transfer my activation once I go live?
 
-Once you go live, you can simply delete the activation from your [activations dashboard](https://pushlabs.co/my-account/my-api-keys/) and re-activate the plugin on the live site.
+Once you go live, you can simply delete the activation from your [activations dashboard](https://pushlabs.co/my-account/api-keys/) and re-activate the plugin on the live site.
 
 ## How can I enable sound on my video background?
 
