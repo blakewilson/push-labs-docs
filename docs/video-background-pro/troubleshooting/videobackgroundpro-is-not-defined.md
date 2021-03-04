@@ -10,7 +10,7 @@ If you are experiencing the following error:
 ReferenceError: VideoBackgroundPro is not defined
 ```
 
-It means that the plugins main script is not being loaded. This can happen when using optimizing plugins, or caching plugins.
+It means that the plugin's main script is not being loaded. This can happen for a number of reasons, usually when using optimizing plugins, or caching plugins.
 
 ## Autoptimize Conflict Fix
 
@@ -29,3 +29,9 @@ wp-includes/js/dist/, wp-includes/js/tinymce/, js/jquery/jquery.js, wp-content/p
 ```
 
 Finally, be sure to click the button at the bottom `Save Changes and Empty Cache`
+
+## wp_footer() Not Being Called
+
+Another cause of this issue could be that your theme does not call [`wp_footer()`](https://developer.wordpress.org/reference/functions/wp_footer/). This is critical for any theme, as most plugins use this hook to enqueue scripts, styles, etc.
+
+You may see this if you have built your own theme and forgot to call `wp_footer()` in your `footer.php` file.
