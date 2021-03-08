@@ -24,6 +24,7 @@ module.exports = {
       "video-background-pro/troubleshooting/videobackgroundpro-is-not-defined",
       "video-background-pro/troubleshooting/youtube-playback-issues",
       "video-background-pro/troubleshooting/multiple-video-backgrounds",
+      "video-background-pro/troubleshooting/using-metabox-with-wpbakery-row",
     ],
     Examples: [
       "video-background-pro/examples/add-video-background-to-every-page",
