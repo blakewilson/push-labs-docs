@@ -29,6 +29,7 @@ module.exports = {
     Examples: [
       "video-background-pro/examples/add-video-background-to-every-page",
       "video-background-pro/examples/playing-random-video-background",
+      "video-background-pro/examples/programmatically-insert-video-background",
     ],
     Advanced: [
       "video-background-pro/using-methods",
