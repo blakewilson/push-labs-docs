@@ -3,6 +3,12 @@ title: Changelog
 description: All of the changes in Video Background Pro
 ---
 
+## v4.0.6 (Aug 23, 2022)
+
+### Bug Fixes
+
+- Updates CMB2 to 2.10.1 which fixes critical errors that could be thrown with the Updraft Plus plugin and more.
+
 ## v4.0.5 (Mar 20, 2020)
 
 ### Bug Fixes
