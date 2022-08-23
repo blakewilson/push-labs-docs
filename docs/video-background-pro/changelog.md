@@ -3,6 +3,12 @@ title: Changelog
 description: All of the changes in Video Background Pro
 ---
 
+## v4.0.7 (Aug 23, 2022)
+
+### Bug Fixes
+
+- Fixes a bug introduced in v4.0.6 where the metabox does not appear on some UNIX systems
+
 ## v4.0.6 (Aug 23, 2022)
 
 ### Bug Fixes
