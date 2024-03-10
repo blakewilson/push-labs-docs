@@ -3,6 +3,16 @@ title: Changelog
 description: All of the changes in Video Background Pro
 ---
 
+## v4.0.8 (Mar 10, 2024)
+
+### Bug Fixes
+
+- Fixed "Incompatible Archive" error when uploading the plugin on some hosts
+
+### Enhancements
+
+- Updated dependencies
+
 ## v4.0.7 (Aug 23, 2022)
 
 ### Bug Fixes
