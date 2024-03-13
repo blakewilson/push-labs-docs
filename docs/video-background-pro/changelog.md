@@ -3,6 +3,12 @@ title: Changelog
 description: All of the changes in Video Background Pro
 ---
 
+## 4.0.9 (Mar 12, 2024)
+
+### Patch Changes
+
+- Fix empty line in plugin upgrade notice
+
 ## v4.0.8 (Mar 10, 2024)
 
 ### Bug Fixes
