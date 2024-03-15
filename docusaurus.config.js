@@ -5,18 +5,15 @@ module.exports = {
   favicon: "img/pushlabs_favicon.png",
   organizationName: "pushlabsco", // Usually your GitHub org/user name.
   projectName: "push-labs-docs", // Usually your repo name.
-  plugins: [require.resolve("@docusaurus/plugin-google-analytics")],
+  plugins: [],
   themeConfig: {
-    googleAnalytics: {
-      trackingID: "UA-81413905-2",
-    },
     navbar: {
       title: "Push Labs Docs",
       logo: {
         alt: "Push Labs Logo",
         src: "img/pushlabs_favicon.png",
       },
-      links: [
+      items: [
         {
           to: "video-background/",
           label: "Video Background",
@@ -27,7 +24,6 @@ module.exports = {
           label: "Video Background Pro",
           position: "left",
         },
-        { search: true },
       ],
     },
     footer: {
@@ -67,8 +63,7 @@ module.exports = {
             },
             {
               label: "Support",
-              href:
-                "mailto:blake@pushlabs.co?subject=Support for Video Background Pro&amp;body=Please describe the issue you are encountering with Video Background Pro. Please describe the issue you are encountering with Video Background Pro. Please include any images or screen casts if necessary.",
+              href: "mailto:blake@pushlabs.co?subject=Support for Video Background Pro&amp;body=Please describe the issue you are encountering with Video Background Pro. Please describe the issue you are encountering with Video Background Pro. Please include any images or screen casts if necessary.",
             },
           ],
         },
@@ -89,7 +84,8 @@ module.exports = {
       copyright: `© ${new Date().getFullYear()} Push Labs`,
     },
     algolia: {
-      apiKey: "ea144ae42604b7a648f0badda18f5aa3",
+      appId: "MYTU9ATB19",
+      apiKey: "71f87305187ed47b9abb083831759454",
       indexName: "pushlabs",
     },
   },
@@ -97,6 +93,9 @@ module.exports = {
     [
       "@docusaurus/preset-classic",
       {
+        googleAnalytics: {
+          trackingID: "UA-81413905-2",
+        },
         docs: {
           sidebarPath: require.resolve("./sidebars.js"),
           routeBasePath: "/",
