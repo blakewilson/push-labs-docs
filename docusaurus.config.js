@@ -86,7 +86,7 @@ module.exports = {
     algolia: {
       appId: "MYTU9ATB19",
       apiKey: "71f87305187ed47b9abb083831759454",
-      indexName: "pushlabs",
+      indexName: "pushlabs_docs",
     },
   },
   presets: [
