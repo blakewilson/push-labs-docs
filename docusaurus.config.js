@@ -87,6 +87,7 @@ module.exports = {
       appId: "MYTU9ATB19",
       apiKey: "71f87305187ed47b9abb083831759454",
       indexName: "pushlabs_docs",
+      contextualSearch: false,
     },
   },
   presets: [
