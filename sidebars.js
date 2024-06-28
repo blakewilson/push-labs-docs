@@ -43,6 +43,7 @@ module.exports = {
           "video-background-pro/filters/disable-siteorigin",
           "video-background-pro/filters/disable-wpbakery",
           "video-background-pro/filters/do-not-track-cookies",
+          "video-background-pro/filters/admin-notice-visible", 
         ],
       },
     ],

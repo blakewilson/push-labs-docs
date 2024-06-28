@@ -3,6 +3,12 @@ title: Changelog
 description: All of the changes in Video Background Pro
 ---
 
+## 4.1.0 (Jun 28, 2024)
+
+### Minor Changes
+
+- Created filter for admin notice visibility (`vidbgpro_admin_notice_visible`)
+
 ## 4.0.9 (Mar 12, 2024)
 
 ### Patch Changes
