@@ -7,6 +7,9 @@ module.exports = {
   projectName: "push-labs-docs", // Usually your repo name.
   plugins: [],
   themeConfig: {
+    prism: {
+      additionalLanguages: ['php']
+    },
     navbar: {
       title: "Push Labs Docs",
       logo: {
